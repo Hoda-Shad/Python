@@ -4,6 +4,7 @@ import random
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT = 500
 
+
 class Snake(arcade.Sprite):
     def __init__(self):
         super().__init__()
