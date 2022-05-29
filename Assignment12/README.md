@@ -13,7 +13,7 @@ _**Some ScreenShot of Output:**_
 ![after finishing the hearts](img/4.png)
 
 ----
-###Usage Note:
+### Usage Note:
 ```
 You can run the program
 python main.py 
