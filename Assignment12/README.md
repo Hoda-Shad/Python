@@ -1,4 +1,4 @@
-#Silver SpaceCraft
+# Silver SpaceCraft
 a simple **python** game using [Arcade](https://api.arcade.academy/en/latest/) library
 
 ----
