@@ -76,7 +76,7 @@ class MainWindow(QMainWindow):
 
             elif self.ui.maincombo.currentText() == 'Temperature':
                 SI = { '°C': 1.0 , '°F':-17.22, '°K':-272.15}
-                num = int(self.ui.lineEdit_2.text()) * SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()]
+                num = int(self.ui.lineEdit_2.text()) * (SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()])
                 num = round(num, 2)
                 self.ui.lineEdit_4.setText(str(num))
 
