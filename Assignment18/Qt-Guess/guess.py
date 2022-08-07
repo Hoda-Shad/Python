@@ -32,6 +32,7 @@ class MainWindow(QMainWindow):
             msgBox = QMessageBox()
             msgBox.setText('برنده شدی')
             msgBox.exec()
+            self.ui.lineEdit.setText('')
 
     def b(self):
         self.ui.lineEdit.setText('')
