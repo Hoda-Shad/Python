@@ -58,22 +58,26 @@ class MainWindow(QMainWindow):
 
                 SI = {'mm': 0.001, 'cm': 0.01, 'm': 1.0, 'km': 1000., 'in': 0.17}
                 num = int(self.ui.lineEdit_2.text()) * SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()]
+                num = round(num, 2)
                 self.ui.lineEdit_4.setText(str(num))
 
             elif self.ui.maincombo.currentText() == 'Weight':
                 print('t')
                 SI = {'kg':1000, 'g': 1.0, 'T': 1000000, 'P': 453}
                 num = int(self.ui.lineEdit_2.text()) * SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()]
+                num = round(num,2)
                 self.ui.lineEdit_4.setText(str(num))
 
             elif self.ui.maincombo.currentText() == 'Digital Storage':
                 SI = {'byte': 1, 'bit': 0.125 , 'KByte': 1000, 'MByte': 1000000,'GByte':1000000000, 'TByte':1000000000000}
                 num = int(self.ui.lineEdit_2.text()) * SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()]
+                num = round(num, 2)
                 self.ui.lineEdit_4.setText(str(num))
 
             elif self.ui.maincombo.currentText() == 'Temperature':
-                SI = { '°C':1, '°F':-17.22, '°K':-272.15}
+                SI = { '°C': 1.0 , '°F':-17.22, '°K':-272.15}
                 num = int(self.ui.lineEdit_2.text()) * SI[self.ui.comfrom.currentText()] / SI[self.ui.comto.currentText()]
+                num = round(num, 2)
                 self.ui.lineEdit_4.setText(str(num))
 
 
