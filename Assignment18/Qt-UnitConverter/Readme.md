@@ -8,7 +8,7 @@ Options:
 * m
 * km
 * inch
-* 
+
 ![](km-cm.png)
 
 
@@ -26,7 +26,7 @@ Options:
 * °C
 * °F
 * °K
-* 
+
 ![](temp.png)
 
 4- Digital Storage Converter:
@@ -37,5 +37,5 @@ Options:
 * Mb
 * Gb
 * Tb
-* 
+
 ![](b-by.png)
